@@ -4,7 +4,6 @@ highlighter: rouge
 category-list: [features]
 permalink: pretty
 baseurl: "https://holoirc.com"
-mainsiteurl: "https://holoirc.com"
 
 plugins:
   - jekyll-redirect-from
