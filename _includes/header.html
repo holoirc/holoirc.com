@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>
+            {% if page.url == "/" %}
+                {{ page.title }}
+            {% else %}
+                {{ page.title }} - {{ site.name }}
+            {% endif %}
+        </title>
+
+        <!-- begin meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- end meta tags -->
+
+        <!-- begin css -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
+        <!-- end css -->
+    </head>
+
+    <body>
+        
